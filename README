@@ -1,0 +1,7 @@
+Without bash fork
+real	4m10,218s
+user	4m7,902s
+sys	0m0,514s
+
+With bash fork
+
