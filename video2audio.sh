@@ -10,5 +10,5 @@ MIOLOGLV="quiet"
 
 for CONTA in {01..10}; do
 	MIOVIDEO=$(ls $CONTA*.mp4)
-	ffmpeg -loglevel $MIOLOGLV -i "${MIOVIDEO}" -b:a $AUDIORATE -vn "$(basename "${MIOVIDEO}" .$VIDEOEXT)".$AUDIOEXT
+	ffmpeg -loglevel $MIOLOGLV -i "${MIOVIDEO}" -b:a $AUDIORATE -vn "$(basename "${MIOVIDEO}" .$VIDEOEXT)".$AUDIOEXT &
 done
