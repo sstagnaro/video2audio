@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Converts all video passed as argument
 # from the current video format to the $AUDIOEXT audio format
